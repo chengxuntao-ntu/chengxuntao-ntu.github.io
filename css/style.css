@@ -1,0 +1,120 @@
+/* CSS Document */
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	background:	#cccccc;
+	color: #333333;
+	font-size:14px;
+	font-family:"Arial";
+}
+p {
+	line-height:18px;
+}
+ul {
+	list-style-type:disc;
+	line-height:18px;
+	padding-left:15px;
+}
+ol {
+	line-height:18px;
+	padding-left:15px;
+}
+a {
+	text-decoration: none;
+}
+.wrapper {
+	margin:0 auto;
+}
+.innerWrapper {
+	background:#fffffe;
+	height:auto;
+	border-left:5px solid #bbbbbb;
+	border-right:5px solid #bbbbbb;
+	/*min-width:650px;*/
+	overflow:auto;
+	/*overflow:hidden;*/
+}
+.header {
+	overflow:auto;
+	background-color:#ff6600;
+	border-bottom:1px solid #ff6600;
+}
+	.header .welcome {
+		font-size:24px;
+		color:#ffffff;
+		float:left;
+		display:block;
+		margin: 10px 15px 10px 15px;
+		text-decoration: none;
+	}
+		.header .myName a:visited {
+			text-decoration: none;
+		}
+.content {
+}
+.content .contact{
+	overflow:auto;
+	border-bottom:1px solid #cccccc;
+	clear:both;
+}
+	.contact .profileImg {
+		width: 220px;
+		margin:10px 0 10px 15px;
+		float:left;
+	}
+	.contact .contactDetail {
+		margin:10px 15px 0 15px;
+		float:left;
+	}
+		.contact .contactDetail .myName{
+			width: 100px;
+			margin:0 0 0 0;
+		}
+		.contact .contactDetail p{
+			margin-bottom: 10px;
+		}
+.content .mainContent {
+	clear:both;
+	/*border-left:1px solid #cccccc;*/
+}
+	.mainContent .section{
+		margin:10px 15px 0 15px;
+		padding-bottom:10px;
+	}
+		.mainContent .section h1 {
+			font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+			font-size:16px;
+			font-weight: bold;
+			color:#333333;
+		}
+		.mainContent .section p {
+			margin:10px 15px 0 15px;
+		}
+		.mainContent .section ul {
+			margin:10px 15px 0 15px;
+		}
+		.mainContent .section ol {
+			margin:10px 15px 0 15px;
+		}
+.footer {
+	margin-top:20px;
+	clear:both;
+	height:20px;
+	background-color:#ff6600;
+}
+	.footer p{
+		font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+		font-size:14px;
+		font-weight: bold;
+		color:#333333;
+		float:right;
+		display:block;
+		margin-top:5px;
+		height:20px;
+		padding-right:10px;
+		padding-bottom:10px;
+	}
+
